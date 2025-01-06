@@ -8,7 +8,7 @@ import Foundation
 
 struct Meal: Identifiable {
     let id: UUID = UUID()
-    var type: String // e.g., Breakfast, Lunch
+    var type: String
     var foodItems: [FoodItem]
     var date: Date
 }

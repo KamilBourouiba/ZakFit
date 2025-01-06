@@ -8,7 +8,7 @@ import Foundation
 
 struct Activity: Identifiable {
     let id: UUID = UUID()
-    var type: String // e.g., Cardio, Strength
-    var duration: Int // in minutes
+    var type: String
+    var duration: Int
     var caloriesBurned: Int
 }
